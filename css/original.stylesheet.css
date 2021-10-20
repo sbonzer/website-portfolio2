@@ -1,0 +1,409 @@
+body {
+	background: #1A1918;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	margin: 20px;
+	box-sizing: border-box;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.page-header__item {
+	flex: 0 1 200px;
+	box-sizing: border-box;
+
+}
+
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.navigation-list li {
+	list-style-type: none;
+	margin-left: 15px;
+	box-sizing: border-box;
+}
+
+ul {
+	font-weight: 500;
+	list-style-type: none;
+	/*margin: 0;
+	padding: 0;*/
+	box-sizing: border-box;
+}
+
+li {
+	display: inline-block;
+	margin: 20px;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+li a {
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 15px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: lightblue;
+	box-sizing: border-box;
+}
+
+a:visited {
+	color: #F0FFF1;
+	box-sizing: border-box;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #FFB28F;
+	box-sizing: border-box;
+}
+
+a:active {
+	color: #FFA700;
+	box-sizing: border-box;
+}
+
+.profile {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 10%;
+	box-sizing: border-box;
+}
+
+.profile__portrait {
+	float: left;
+	width: 250px;
+	border-radius: 50%;
+	margin-right: 40px;
+	box-sizing: border-box;
+	/*margin-top: 10px;
+	margin-left: 20px;*/
+}
+
+h1 {
+	font-family: "Hevetica Nueu";
+	font-size: 50px;
+	color: #DEDEDE;
+	letter-spacing: 3px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-family: "Hevetica Nueu";
+	font-size: 30px;
+	color: #DEDEDE;
+	letter-spacing: 3px;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: 'noto sans mono', monospace;
+	font-size: 16px;
+	color: #FFF9FC;
+	letter-spacing: normal;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+/* före 1.7 Advanced topics in CSS
+button {
+	background-color: #e0b354;
+	color: #2b2b2b;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 15px;
+	border: 1px solid;
+	border-color: lightblue;
+	border-radius: 15px;
+	box-sizing: border-box;
+
+}
+
+button:hover, button:focus {
+	color: lightblue;
+	background-color: #1F1F1F;
+	border-color: whitesmoke;
+	font-size: 18px;
+	border-bottom: 1px solid lightblue;
+	cursor: grab;
+	box-sizing: border-box;
+}*/
+
+.my-button {
+	align-content: center;
+}
+
+/*CSS for about.html*/
+
+.about-text {
+  text-align: center;
+}
+
+button,
+.button-index,
+.button {
+	background-color: #e0b354;
+	color: #2b2b2b;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 15px;
+	margin-top: 40px;
+	border: 1px solid;
+	border-color: lightblue;
+	border-radius: 15px;
+	text-decoration: none;
+	display: inline-block;
+	transition: opacity 0.2s;
+	box-sizing: border-box;
+}
+
+button:hover,
+button:focus,
+.button-index:hover,
+.button-index:focus,
+.button:hover,
+.button:focus {
+	color: lightblue;
+	background-color: #1F1F1F;
+	border-color: whitesmoke;
+	font-size: 18px;
+	opacity: 0.2;
+	border-bottom: 1px solid lightblue;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+button:hover,
+button:focus,
+.button-index:hover,
+.button-index:focus {
+	cursor: grab;
+}
+
+thead, tbody {
+	color: #FFF9FC;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #B5F5F3;
+  width: 400px;
+  margin:auto;
+	box-sizing: border-box;
+}
+
+thead {
+	color: pink;
+	text-align: center;
+}
+
+table {
+	/*margin: 20px;*/
+	padding: 35px 70px 50px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightblue;
+	width: 800px;
+	box-sizing: border-box;
+}
+
+footer {
+	margin-top: 30%;
+	color: #212121;
+	box-sizing: border-box;
+}
+
+.page-footer {
+	clear: both;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+
+/*CSS for contact.html*/
+
+.contact-foto {
+	width: 300px;
+	border-radius: 40%;
+  box-sizing: border-box;
+}
+
+.contact-text {
+	font-family: "Hevetica Nueu";
+	font-size: 50px;
+	color: #DEDEDE;
+	letter-spacing: 3px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+fieldset {
+	color: #FCFCFC;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #B5F5F3;
+  width: 400px;
+  margin:auto;
+  text-align: center;
+
+}
+
+input, textarea {
+	margin: 10px 10px;
+}
+
+.contact-info {
+	font-family: "Hevetica Nueu";
+	font-size: 50px;
+	color: #DEDEDE;
+	letter-spacing: 3px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 80px;
+
+}
+
+/* Section CSS grid*/
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.project-list__items {
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.project-list__items:last-child {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+}
+
+.my-work {
+  text-align: center;
+}
+
+/* 1.7 Advanced topics in CSS... responsive web pages*/
+
+@media all and (max-width: 500px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px){
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (max-width: 750px) {
+  .project-list {
+    grid-gap: 5px;
+  }
+  .project-list__items:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  body {
+  	background-color: #041938;
+  }
+
+  .profile {
+	  margin: 0 auto;
+	  margin-top: 10%;
+	  letter-spacing: 0.2px;
+	  box-sizing: border-box;
+
+  }
+
+  .profile__portrait {
+	  width: 180px;
+	  height: 200px;
+	  border-radius: 10% 20%;
+	  margin-right: 10px;
+	  box-sizing: border-box;
+
+	}
+
+	.button-index {
+		background-color: #e0b354;
+	  color: #2b2b2b;
+	  font-family: inherit;
+	  font-size: 12px;
+	  padding: 10px;
+	  margin-top: 20px;
+	  border: 1px solid;
+	  border-color: lightblue;
+	  border-radius: 5px;
+	  text-decoration: none;
+	  display: inline-block;
+	  box-sizing: border-box;
+
+	}
+
+	footer {
+		margin-top: 20%;
+	}
+	.contact-text, h2 {
+		font-size: 20px;
+	}
+
+	p, fieldset {
+		font-size: 15px;
+	}
+}
+
+@keyframes color-change {
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+  	fill: #F59FFF;
+  }
+
+  70% {
+  	fill: #F59F4F;
+  }
+
+  100% {
+    fill: #8400E8;
+  }
+}
+
+.sun {
+  	animation-duration: 10s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+  }
